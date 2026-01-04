@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Angel Eduardo - Fan Page </title>
+</head>  
+
+<body>
+    <!-- HEADER -->
+    <header>
+            <h1>Pagina de Angel</h1>
+    </header>
+
+    <!-- ASIDE -->
+    <aside>
+        <h4>Concept Definition</h4>
+        <p>Espacio con imformacion extra</p>
+    </aside>
+
+    <!-- ELEMENTOS DE BODY -->
+    <div></div>
+        <h1> Angel Eduardo </h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Thomas_J_Watson_Sr.jpg" width="300" height="300" >
+        <p>Es un estudaitne que (<a href="https://www.ibm.com">IMB</a> )toom este cursi</p>
+    </div>
+
+    <div></div>
+        <h2> Cosas que le gustan a Angel Eduardo 
+        <ul>
+            <li> Le gusta K-on </li>
+            <li> LE gusta One piece </li>
+            <li> LE gusta LEd Zeppelin </li>
+            <li> Le gusta el agua de horchata </li>
+            <li> le gusta minecraft </li>               
+        </ul>  
+    <div>
+        
+    <section>
+        <h1>Seccion 1</h1>
+        <p>texto de seccion 1.</p>
+    </section>
+    <section>
+        <h1>Seccion 2</h1>
+        <p>Texto de seccion 2.</p>
+    </section>
+
+    <article>
+        <h1>Articulo 1</h1>
+        <p>Peque;o dato o reportaje curioso de mi vida</p>
+    </article>
+
+    <!-- COMO HACER TABLAS -->    
+    <table>
+        <tr>
+            <th>No. of Employees </th>
+            <th>Gross Income (In m$) </th>
+        </tr>
+        <tr>
+            <td>1925</td>
+            <td>3698</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>1930</td>
+            <td>6346</td>
+            <td>19 </td>
+        </tr>
+        <tr>
+            <td>1935</td>
+            <td>8651</td>
+            <td>21</td>
+        </tr>    
+    </table>   
+
+    <!-- AUDIOVISUALES Y EMBEBIDOS-->
+    <!-- Si el navegador no lo soporta, este correra el texto que dejes en medio -->
+    <h4>Over the Hills and Far Away - Live</h4>
+    <audio controls>
+        <source src="Over the Hills and Far Away_ Live.mp3" type="audio/mpeg">
+        <source src="Over the Hills and Far Away_ Live.ogg" type="audio/ogg">
+        Tu navegador no soporta audio.
+    </audio>
+
+    <canvas width="100" height="100">
+        Your browser does not support the canvas tag.
+    </canvas>
+    <script>
+        var canvas = document.querySelector("canvas");
+        var context = canvas.getContext("2d");
+        context.fillRect(0, 0, 100, 100);
+    </script>
+
+    <h4>K-ON!! Cap 12</h4>
+    <video width="640" height="360" controls>
+        <source src="K-ON12.mp4" type="video/mp4">
+        <track src="english_subtitles.vtt" kind="subtitles" srclang="en" label="English">
+        <track src="spanish_subtitles.vtt" kind="subtitles" srclang="es" label="Spanish">
+        Tu navegador no soporta video.
+    </video>
+
+    <embed type="text/html" src="/trabajo4/index.html" width="640" height="360">
+
+    <!-- FORMULARIOS -->
+    <h2>Insights Submission Form</h2>
+    <!-- form: para hacer inputs del usuario -->
+    <form action="/submit-feedback" method="POST">
+        <!-- fieldset: para hacer un conjunto dentro de algun form -->
+        <fieldset>
+            <legend>Your Insights About Thomas J. Watson Are Valued</legend>
+    
+            <!-- input type text: para ingresar texto -->
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+    
+            <!-- nput type email: para ingresar correos -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+    
+            <!-- Text area: sirve como input largas de varias lineas -->
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Share your thoughts about Thomas J. Watson"></textarea><br><br>
+    
+            <!-- Submit Button: para accionar alguna funcion -->
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+    <footer>
+            <p>Published today.<br> Derechos reservados a mu;oz</p>
+    </footer>
+
+</body>    
+</html>
