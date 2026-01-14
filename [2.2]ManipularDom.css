@@ -1,0 +1,28 @@
+
+    /* CONTENEDOR PRINCIPAL DE COSAS POR HACER */
+    .todo-container {
+        width: 300px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+        
+    /* PAra remover estilos */
+    .todo-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    /* ELEMENTOS DE LA LISTA */
+    li {
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* espacio en los botones */
+    button {
+        margin-left: 10px;
+    }
