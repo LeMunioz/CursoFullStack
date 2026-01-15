@@ -17,3 +17,8 @@ h1 {
     border-radius: 25px;
     text-align: center;
 }
+#rate_val{
+    display: inline-block;
+    width: 60px;      /* espacio fijo */
+    text-align: right;
+}
