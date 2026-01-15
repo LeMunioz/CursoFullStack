@@ -1,0 +1,42 @@
+    <head>
+        <script src="[2.4]calculador.js"></script>
+        <link rel="stylesheet" href="[2.4]calculador.css">
+        <title>Calculadora de intereses simple</title>
+    </head>
+    <body>
+        <div class="maindiv">
+            <h1>Calculadora de intereses</h1>
+
+            Cantidad <input type="number"  id="principal">  <br/>
+
+            Tasa de interés 
+            <input type="range" id="rate" min="1" max="20" step="0.25"
+                oninput="updateRate()">
+
+            <span id="rate_val">    10.25</span>% <br/>
+
+            Años 
+            <input type="number" id="years" list="all_years">
+            <datalist id="all_years">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+            <br />
+            Interes : <span id="result"></span><br/>
+
+            <button onclick="computa()">Computa el Interes</button>
+        </div>
+
+        <footer>
+            &#169; Esta cosa la hizo muñoz
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(49, 40, 34);
+    font-family: arial;
+    color: white;
+}
+
+h1 {
+    color: rgb(63, 64, 67);
+    font-family: verdana;
+}
+
+.maindiv {
+    background-color: rgb(176, 200, 202);
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
