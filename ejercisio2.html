@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora y crud de Muñoz</title>
+    <script src="ejercisio2.js" defer></script>
+    <link rel="stylesheet" href="ejercisio2.css"> 
+</head>
+<body>
+
+    <!-- CALCULADORA -->
+    <div id="calcaldoradiv">
+        <h1>Calculadora Simple</h1>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="text" id="operando" list="operacion">
+             <datalist id="operacion">
+                <option value ="+"></option>
+                <option value ="-"></option>
+                <option value ="*"></option>
+                <option value ="/"></option>
+             </datalist>  
+        <input type="number" id="num2" placeholder="Número 2">
+        <button onclick="calcular()">Calcular</button>
+        <br>
+        <p id="resultado"> resultado </p> 
+        <button onclick="quitarResultado()">borrar</button>
+    </div> 
+    
+    <div id="crud"> 
+        <h1>LISTA DE TAREAS POR HACER</h1>
+        <br>
+        <input type ="text" id="tareainput" placeholder="Inresa aqui la tarea">
+        <button onclick="AgregarTarea()">AGREGAR</button>
+        <br>
+        <h2>Buscar tareas</h2>
+        <input type="search" id="buscar" placeholder="Pon la tarea que quieras buscar">
+        <button onclick="BuscarTarea()"> BUSCAR</button>
+        <br>
+        <ul id="listaTareas">
+          
+        </ul>    
+    </div>
+</body>
+</html>
