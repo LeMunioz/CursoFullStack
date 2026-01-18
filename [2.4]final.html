@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portafolio — Angel Eduardo</title>
+    <link rel="stylesheet" href="[2.4]final.css">    
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>Angel Eduardo</h1>
+      <a href="mailto:angel@gmail.com">angel@gmail.com</a>
+    </div>
+    <nav>
+      <a href="#acerca">Acerca de mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#recomendaciones">Recomendaciones</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- --- Acerca de mi --- -->
+    <section id="acerca">
+      <div class="about">
+        
+        <img class="avatar" src="yui.jpg" alt="Foto de Angel Eduardo">
+        <div>
+          <h2>Cosas sobre mí</h2>
+          <p>
+            Hola, soy Angel Eduardo. Estudiante de Ing En computacion de CuALTOS. me gusta K-on, c++ y programar en general. Me interesa el desarrollo web y las redes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- Habilidades --- -->
+    <section id="habilidades">
+      <div class="skills">
+        <h2>Habilidades</h2>
+        <div class="skill-grid">
+          <div class="skill-card">
+            <strong>C++</strong>
+            <h3>Programación en C++</h3>
+            <p>Conocimientos en programación orientada a objetos, plantillas y STL.</p>
+          </div>
+
+          <div class="skill-card">
+            <strong>SQL</strong>
+            <h3>Bases de datos</h3>
+            <p>Diseño y consultas en SQL, normalización y optimización de consultas.</p>
+          </div>
+
+          <div class="skill-card">
+            <strong>Redes</strong>
+            <h3>Redes de computadoras</h3>
+            <p>Protocolos, configuración básica y administración de redes.</p>
+          </div>
+
+          <div class="skill-card">
+            <strong>Inglés</strong>
+            <h3>Inglés</h3>
+            <p>Habilidad de lectura y comunicación técnica en inglés.</p>
+          </div>
+
+          <div class="skill-card">
+            <strong>Git</strong>
+            <h3>Control de versiones</h3>
+            <p>Flujos de trabajo con git: commits, ramas, rebase y pull requests.</p>
+          </div>
+
+          <div class="skill-card">
+            <strong>Web</strong>
+            <h3>Programación web</h3>
+            <p>HTML, CSS y JavaScript para construir interfaces responsivas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- Proyectos --- -->
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="projects">
+        <article class="proj">
+          <h4>Librería de interfaces en C++</h4>
+          <p>Una biblioteca orientada a facilitar la creación de interfaces gráficas y menús en proyectos C++.</p>
+        </article>
+
+        <article class="proj">
+          <h4>Sitio web local para pizzería</h4>
+          <p>Proyecto de sitio web estático y prototipo local para una pizzería, incluye menú y formulario de contacto.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- --- Recomendaciones --- -->
+    <section id="recomendaciones">
+      <h2>Recomendaciones</h2>
+      <div class="recs">
+        <blockquote>
+          "Angel trabajó con nosotros en un proyecto universitario, o bueno, disque proyecto. Demostró ser dedicado y con ganas de aprender."
+          <footer>- Profesor / Mentor</footer>
+        </blockquote>
+
+        <blockquote>
+          "He colaborado con Angel en varios proyectos de programación. no hace mucho pero es chistoso y trabajador."
+          <footer>- Compañero de equipo</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- --- COMENTARIOS --- -->
+    <section id="contacto">
+      <h2>Deja un comentario</h2>
+      <div class="comments">
+        <div class="form-row" style="margin-bottom:10px;">
+          <input type="text" id="nombre" placeholder="Tu nombre">
+        </div>
+        <div style="margin-bottom:10px;">
+          <textarea id="mensaje" rows="4" placeholder="Tu comentario"></textarea>
+        </div>
+        <div>
+          <button class="primary" onclick="mandarMensaje()">Enviar</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- --- FOOTER --- -->
+  <footer>
+    <p>© <span id="anio"></span> Angel Eduardo — Portafolio simple</p>
+  </footer>
+    <script src="[2.4]final.js" defer></script>
+</body>
+</html>
