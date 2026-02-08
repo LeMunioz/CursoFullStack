@@ -3,7 +3,7 @@ let contador = 0;
 function increaseCount() {
   contador++; 
   muestraContador();
-  checkCountValue();
+  checaValorContador();
 }
 function muestraContador() {
 document.getElementById('countDisplay').innerHTML=contador; 
