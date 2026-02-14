@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD DE LIBROS</title>
+</head>
+<body>
+    <h1>crud de libros</h1>
+    <label for="Nombre">Nombre del libro:</label><br>
+    <input type="text" id="NombreLibro"><br><br>
+    <label for="Autor">Nombre del autor:</label><br>
+    <textarea id="Autor" rows="4"></textarea><br><br>
+    <label for="Descripcion">Descripcion del libro:</label><br>
+    <textarea id="DescripcionLibro" rows="4"></textarea><br><br>
+    <label for="Paginas">Numero de paginas:</label><br>
+    <input type="number" id="NumeroPaginas"><br><br>
+    <button onclick="addBook()">Añadir Libro</button>
+
+    <h2>LIBROS</h2>
+    <div id="libro">
+        <!-- Aqui apareceran los libros -->
+    </div>
+    <script src="libro.js"></script>
+</body>
+</html>
