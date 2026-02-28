@@ -1,4 +1,4 @@
-const colores = ['rojo', 'azul', 'verde', 'morado', 'naranja', 'rosa', 'rojo', 'azul', 'verde', 'morado', 'naranja', 'rosa'];
+const colores = ['red', 'blue', 'green', 'purple', 'orange', 'pink', 'red', 'blue', 'green', 'purple', 'orange', 'pink'];
 //duplicamos el arreglo y lo revolvemos
 let tarjetas = revolver(colores.concat(colores)); 
 let TarjetasSeleccionadas = [];
